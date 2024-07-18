@@ -1,6 +1,6 @@
 # Fish Behavior Analysis in Aquaculture
 
-Behavior analysis in aquaculture involves observing fish swimming patterns, gill movements, and feeding interactions to understand the physiological and environmental factors impacting their behavior. Studying fish behavior helps us comprehend their feeding cues, motivations, and preferences, optimizing the aquaculture harvest.
+This project focuses on analyzing fish behavior in aquaculture to optimize fish growth and health. Using a custom-trained YOLOv10s model, fish are detected and tracked to study their feeding interactions. By leveraging methods such as tracking and Delaunay triangulation, the feeding behavior of fish is classified. The analysis addresses issues like ammonia buildup, reduced growth, and aggression among fish. The dataset, annotated from scratch, provides the foundation for training the model, leading to improved accuracy and stable detection. The model training and inference were performed using the PyTorch library on an NVIDIA GeForce RTX 4060 Ti GPU with 16GB VRAM, ensuring efficient processing and fast computations. Key metrics like average speed, flocking index, triangle area, and edge length are calculated to assess fish behavior comprehensively.
 
 ## Problem Statement: Need for Efficient Behavioral Analysis
 
